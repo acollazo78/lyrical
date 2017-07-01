@@ -7,4 +7,6 @@ Rails.application.routes.draw do
   
   # TODO: add a route that sends a post request to "/songs" to the controller songs
   # and action create
+   get '/song' => 'application#new'
+   get '/create' => 'applications'
 end
